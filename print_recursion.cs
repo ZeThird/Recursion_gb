@@ -5,7 +5,7 @@ static void print_recursion(ref int[] arr, int pos=0) {
     if (pos_from_end <= 0) {
         return;
     } else {
-        Console.WriteLine(arr[pos]);
+        Console.WriteLine(arr[pos_from_end]);
         print_recursion(ref arr, pos + 1);
     }
 }
